@@ -1,0 +1,13 @@
+USE aug_20;
+CREATE TABLE employee(id int(30),emp_name varchar(40),emp_place varchar(40),age int(50),emp_age int(57),emp_designation varchar(70),company_name varchar(40),salary int(70));
+INSERT INTO employee VALUES(1,'Anu','ballari',40,40,'manager','TCS',35000);
+INSERT INTO employee VALUES(4,'Mah','banglore',25,25,'manager','Amazon',75000);
+INSERT INTO employee VALUES(6,'Ashu','hubli',29,29,'manager','TCS',45000);
+INSERT INTO employee VALUES(6,'Mohan','ballari',37,37,'manager','TCS',8000);
+INSERT INTO employee VALUES(9,'Ravi','banglore',40,40,'manager','TCS',35000);
+INSERT INTO employee VALUES(3,'Manoj','banglore',40,40,'manager','TCS',35000);
+INSERT INTO employee VALUES(4,'Mah','banglore',25,25,'manager','TCS',35000);
+INSERT INTO employee VALUES(6,'Ashu','hubli',29,29,'manager','TCS',35000);
+INSERT INTO employee VALUES(6,'Mohan','ballari',37,37,'manager','TCS',35000);
+INSERT INTO employee VALUES(6,'Ashu','hubli',29,29,'manager','TCS',35000);
+Select * from employee;
